@@ -2,14 +2,14 @@
 g='\033[1;32m'
 y='\033[1;33m'
 s='\033[1;36m'
-tsu -c cd Change-Bold-Font
-tsu -c cd Fonts
-tsu -c cp -f DroidSans-Bold.ttf /system/fonts
-tsu -c cp -f Roboto-Bold.ttf /system/fonts
-tsu -c cp -f RobotoCondensed-Bold.ttf /system/fonts
-tsu -c chmod 644 /system/fonts/RobotoCondensed-Bold.ttf
-tsu -c chmod 644 /system/fonts/Roboto-Bold.ttf
-tsu -c chmod 644 /system/fonts/DroidSans-Bold.ttf
+su -c cd Change-Bold-Font
+su -c cd Fonts
+su -c cp -f DroidSans-Bold.ttf /system/fonts
+su -c cp -f Roboto-Bold.ttf /system/fonts
+su -c cp -f RobotoCondensed-Bold.ttf /system/fonts
+su -c chmod 644 /system/fonts/RobotoCondensed-Bold.ttf
+su -c chmod 644 /system/fonts/Roboto-Bold.ttf
+su -c chmod 644 /system/fonts/DroidSans-Bold.ttf
 echo " "
 echo " "
 sleep 10
@@ -21,3 +21,40 @@ echo "$y YAD RAKHO TUM ROOT USER HO $y"
 echo "$y ISLIYE FONTS FOLDER ME JITNA $y"
 echo "$y TTF FILE HAI WO SAB /system/fonts $y"
 echo "$y ME COPY AND REPLACE KAR DO OR PERMISSION CHANGE KAR DO 644 R-W-RR $y"
+echo " "
+sleep 20
+echo " "
+echo "$g Ab phone reboot hone wala hai 10 sec me $g"
+echo "$y 10 seconds $y"
+sleep 1
+clear
+echo " "
+echo "$y 9 seconds $y"
+sleep 1
+clear
+echo "$y 8 seconds $y"
+sleep 1
+clear
+echo "$y 7 seconds $y"
+sleep 1
+clear
+echo "$y 6 seconds $y"
+sleep 1
+clear
+echo "$y 5 seconds $y"
+sleep 1
+clear
+echo "$y 4 seconds $y"
+sleep 1
+clear
+echo "$y 3 seconds $y"
+sleep 1
+clear
+echo "$y 2 seconds $y"
+sleep 1
+clear
+echo "$y 1 second $y"
+sleep 1
+su -c reboot
+
+
